@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Corinne's first web game</title>
+    <LINK REL=StyleSheet HREF="css/style.css" TYPE="text/css" MEDIA=screen>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type='text/javascript' src='js/graphics.js'></script>
+    <script type='text/javascript' src='js/script.js'></script>
+    <!audio id="success" src="audio/success.wav" controls hidden preload="auto" autobuffer></audio>
+    <!audio id="keyPressed" src="audio/KeypressStandard.ogg" controls hidden preload="auto" autobuffer></audio>
+		
+    </head>
+    <body style="background-color: rgb(0, 173, 255);">
+
+    <div class="speech hidden">&nbsp</div>
+    <div class="stats hidden" id="level">&nbsp</div>
+    <div class="stats hidden" id="round">&nbsp</div>
+    <div class="stats hidden" id="failed">&nbsp</div>
+    <div class="stats hidden" id="remaining">&nbsp</div>
+    <div class="hidden" id=bar>&nbsp</div>
+
+    <!table class="table1 hidden" border="1" style="background-color:gray;" bordercolor=lightgray cellpadding="0" cellspacing="0">
+
+        <table class="table1 hidden">
+            <tr>
+                <td onclick="cellClicked(this,1);">&nbsp</td>
+                <td onclick="cellClicked(this,2);">&nbsp</td>
+                <td onclick="cellClicked(this,3);">&nbsp</td>
+                <td onclick="cellClicked(this,4);">&nbsp</td>
+            </tr>
+            <tr>
+                <td onclick="cellClicked(this,5);">&nbsp</td>
+                <td onclick="cellClicked(this,6);">&nbsp</td>
+                <td onclick="cellClicked(this,7);">&nbsp</td>
+                <td onclick="cellClicked(this,8);">&nbsp</td>
+
+            </tr>
+                <tr>
+                <td onclick="cellClicked(this,9);">&nbsp</td>
+                <td onclick="cellClicked(this,10);">&nbsp</td>
+                <td onclick="cellClicked(this,11);">&nbsp</td>
+                <td onclick="cellClicked(this,12);">&nbsp</td>
+            </tr>
+        </table>
+    <img src=img/3po_s.png>
+    <div class="badge-ribbon hidden" ></div>
+    <div class="badge-ribbon hidden"></div>
+    <div class="badge-ribbon hidden"></div>
+    <div class="badge-ribbon hidden"></div>
+    <div class="badge-ribbon hidden"></div>
+    </body>	
+	
+	
+</html>
